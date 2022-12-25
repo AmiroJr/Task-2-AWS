@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>AWS Task 2</title>
+	<style>
+		.head1 {
+			font-size:40px;
+			color:#0000FF;
+			font-weight:bold;
+		}
+		.head2 {
+			font-size:17px;
+			margin-left:10px;
+			margin-bottom:15px;
+		}
+		body {
+			margin: 0 auto;
+			background-position:center;
+			background-size: contain;
+		}
+	
+		.menu {
+			position: sticky;
+			top: 0;
+			background-color: #009900;
+			padding:10px 0px 10px 0px;
+			color:white;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.menu a {
+			float: left;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 20px;
+		}
+		.menu-log {
+			right: auto;
+			float: right;
+		}
+		footer {
+			width: 100%;
+			bottom: 0px;
+			background-color: #000;
+			color: #fff;
+			position: absolute;
+			padding-top:20px;
+			padding-bottom:50px;
+			text-align:center;
+			font-size:30px;
+			font-weight:bold;
+		}
+		.body_sec {
+			margin-left:20px;
+		}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+</head>
+
+<body>
+	
+	<!-- Header Section -->
+	<header>
+<a href="" role="button" aria-label="Toggle menu" class="lottie-wrapper">
+  <lottie-player src="https://assets10.lottiefiles.com/datafiles/9gIwZ2uiiKglyb0/data.json" style="width: 60px; height: 60px;"></lottie-player>
+</a>
+
+		<div class="head1">AWS Solutions</div>
+		<div class="head2">A dive into the best AWS Solutions</div>
+	
+	
+	<!-- Menu Navigation Bar -->
+	<div id="menu">
+<nav class="menu">
+		<a href="#home">HOME</a>
+		<a href="https://aws.amazon.com/">AWS</a>
+		<a href="https://www.f13.tech/">F13 Technologies</a>
+		<div class="menu-log">
+			<a href="https://aws.amazon.com/marketplace/partners/management-tour">LOGIN</a>
+</div>
+</span>
+</header>
+		</div>
+	</nav>
+	
+	<!-- Body section -->
+	<main class = "body_sec">
+		<section id="Content"> 
+<BR>
+<h1><u><center>The Best AWS Services used </center></u></h1> 
+<h3><center>Amazon Web Services (AWS) offers a wide range of cloud computing services and products that can be used to build, deploy, and manage <br> applications and infrastructure.<center></h3>
+<h3>Some of the most popular AWS solutions include</h3>
+<ul>
+<li> Amazon Elastic Compute Cloud (EC2) </li>
+<li> Amazon simple storage </li>
+<li> Amazon Relational Database Service </li>
+<li> Amazon Elastic Container Service </li>
+<li> Amazon Lambda </li>
+</ul>
+<br>
+<h2> 1. Amazon Elastic Compute Cloud (EC2) </h2>
+<DIV>Amazon Elastic Compute Cloud (EC2) is a web service that provides resizable compute capacity in the cloud. It allows you to launch virtual servers (called instances) to run your applications. You can choose from a variety of instance types, each with different amounts of compute, memory, and storage resources, to meet the requirements of your applications. </DIV>
+<BR>
+<h3> Functioning </h3>
+<ol>
+<li>	You create an Amazon Elastic Compute Cloud (EC2) instance, which is a virtual machine that runs in the cloud. You can choose from a variety of instance types and configurations, and you can create as many instances as you need. </li>
+<li> 	You can use the Amazon EC2 API, the AWS Management Console, or the AWS CLI to launch and manage your instances. You can also use a variety of tools and libraries, such as AWS CloudFormation, AWS CodePipeline, and the AWS SDKs, to automate the process of launching and managing your instances. </li>
+<li> 	You can use your instances to run a variety of applications, including websites, mobile apps, data analysis, machine learning, and more. You can also use EC2 to host your own applications or to access applications provided by other AWS services, such as Amazon RDS, Amazon Redshift, and Amazon Elasticsearch Service. </li>
+<li> 	Amazon EC2 stores your instances and data in a highly scalable and durable manner. It stores your data across multiple facilities and devices, and it replicates your data within and across regions to provide high availability and durability. </li>
+<li> 	You only pay for the resources you use, and you can scale up or down as needed to meet changing workloads. You can also set up policies to control access to your instances and data, such as allowing or denying access based on the user's identity or the type of request. </li>
+</ol>
+<BR>
+<h3> Different instance types availale on EC2 </h3> 
+<ol>
+<li> General purpose: These instances are well-suited for a variety of workloads, including web and application servers, development and test environments, and small databases. </li>
+<li> Compute optimized: These instances are designed for workloads that
+require a high amount of compute power. </li>
+<li>Memory optimized: These instances are optimized for workloads that require a high amount of memory. </li>
+<li>Storage optimized: These instances are designed for workloads that require a high amount of local storage. </li>
+<li>GPU instances: These instances are designed for workloads that require hardware acceleration using graphics processing units (GPUs), such as machine learning and video encoding. </li>
+<li>ARM instances: These instances are based on ARM processors and are well-suited for workloads that are optimized for low power and cost, such as containerized microservices and web servers. </li>
+</ol>
+<BR>
+<h3> Companies using EC2 </h3> 
+
+
+<div class="row">
+  <div class="column">
+    <img src="https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png" alt="Netflix" style="width:60%">
+  </div>
+  <div class="column">
+    <img src="https://logos-world.net/wp-content/uploads/2022/01/HBO-Max-Logo.png" alt="HBO Logo" style="width:60%">
+  </div>
+  <div class="column">
+    <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Spotify logo" style="width:60%">
+  </div>
+</div>
+<BR> 
+<BR>
+<h2> 2. Amazon Simple Storage Service (S3) </h2> 
+<DIV> Amazon Simple Storage Service (Amazon S3) is a object storage service that offers industry-leading scalability, data availability, security, and performance. This makes it a popular choice for storing and retrieving any amount of data, at any time, from anywhere on the web. </DIV> 
+<h3> Functioning </h3> 
+<ol> 
+<li> You create an Amazon S3 bucket, which is a logical container for storing your data. You can create as many buckets as you need, and each bucket can store an unlimited amount of data. </li> 
+<li> You upload objects (e.g., documents, images, videos) to your bucket. Each object is stored as a file, and you can organize your objects using a hierarchical file structure called a "prefix." </li>
+<li> You can access your objects using a variety of methods, including the Amazon S3 API, the AWS Management Console, and third-party tools. You can also set up policies to control access to your objects, such as allowing or denying access based on the user's identity or the type of request. </li> 
+<li> Amazon S3 stores your objects in a highly scalable and durable manner. It stores your data across multiple facilities and devices, and it replicates your data within and across regions to provide high availability and durability. </li> 
+<li> You can choose from a variety of storage classes, including Standard, Standard-Infrequent Access, and Amazon S3 One Zone-Infrequent Access, to help you optimize performance and cost for your specific use case. You only pay for the storage you use, and you can scale up or down as needed. </li> 
+</ol>
+<h3> The main types of Amazon S3 storage classes </h3>
+<ol> 
+<li> Standard: Standard storage is designed for data that is accessed frequently. It provides high durability (99.999999999% per year) and high availability, and it is suitable for a wide range of use cases, including websites, mobile apps, data lakes, and more. <li>
+<li> Standard-Infrequent Access (Standard-IA): Standard-IA storage is designed for data that is accessed less frequently, but requires rapid access when needed. It provides the same durability and availability as Standard storage, but at a lower price point. Standard-IA is a good option for storing data that needs to be retained for a long period of time, but is not accessed frequently. </li> 
+<li> Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA): S3 One Zone-IA storage is similar to Standard-IA, but it stores data in a single availability zone instead of multiple availability zones. This makes it a lower-cost option for storing data that is not as critical and does not need the same level of availability and durability as Standard or Standard-IA. </li>
+<li> Amazon S3 Intelligent-Tiering: S3 Intelligent-Tiering is a new storage class that automatically moves data to the most cost-effective access tier based on usage patterns. It is designed to help you optimize costs without having to monitor and transfer data manually. </li> 
+<li> Amazon S3 Glacier: S3 Glacier is a secure, durable, and extremely low-cost storage class for data archiving and long-term backup. It is designed for data that is not accessed frequently, and it provides three retrieval options (Expedited, Standard, and Bulk) to meet different recovery time objectives. </li>
+</ol>
+<br> 
+<h3> Companies using Amazon S3 </h3> 
+<div class="row">
+  <div class="column">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png" alt="Airbnb" style="width:60%">
+  </div>
+  <div class="column">
+    <img src="https://s27.q4cdn.com/708721433/files/images/new-logos/image-(10).png" alt="Expedia Logo" style="width:60%">
+  </div>
+  <div class="column">
+    <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Spotify logo" style="width:60%">
+  </div>
+</div>
+<BR>
+<BR>
+<h2> 3. Amazon Relational Database Service(RDS) </h2> 
+<DIV> Amazon Relational Database Service (Amazon RDS) is a managed database service that makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming database administration tasks, such as provisioning, backups, patching, and monitoring. </DIV> 
+<h3> Functioning </h3> 
+<ol> 
+<li>You choose a database engine, such as MySQL, MariaDB, PostgreSQL, Oracle, or Amazon Aurora. You can also select the hardware and network configuration that best meets the needs of your database. </li> 
+<li>You create a database instance, which is a fully managed database environment that runs in the cloud. You can create as many database instances as you need, and you can scale up or down as needed to meet changing workloads. </li>
+<li> You connect to your database instance using standard database tools and protocols, such as SQL, ODBC, and JDBC. You can also use the Amazon RDS API or the AWS Management Console to manage your database instance. </li> 
+<li> Amazon RDS automatically handles tasks such as provisioning, backups, patching, and monitoring, so you can focus on developing and deploying your application. You can also set up policies to control access to your database, such as allowing or denying access based on the user's identity or the type of request. </li> 
+<li> Amazon RDS stores your data in a highly scalable and durable manner. It stores your data across multiple facilities and devices, and it replicates your data within and across regions to provide high availability and durability. </li> 
+</ol>
+<h3> The main types of Amazon RDS are the following: </h3> 
+<ol> 
+<li>MySQL: MySQL is a popular open-source database engine that is widely used for web, mobile, and embedded applications. Amazon RDS for MySQL provides a fully managed MySQL database service, with support for InnoDB storage engine and all the latest MySQL features.  </li> 
+<li> MariaDB: MariaDB is a fork of MySQL with a similar syntax and feature set. Amazon RDS for MariaDB provides a fully managed MariaDB database service, with support for InnoDB storage engine and all the latest MariaDB features.
+<li> PostgreSQL: PostgreSQL is a powerful, open-source object-relational database system that is widely used for a variety of applications. Amazon RDS for PostgreSQL provides a fully managed PostgreSQL database service, with support for all the latest PostgreSQL features. </li> 
+<li>Oracle: Oracle is a proprietary database engine developed and supported by Oracle Corporation. Amazon RDS for Oracle provides a fully managed Oracle database service, with support for all the latest Oracle features. </li> 
+<li> Amazon Aurora: Amazon Aurora is a fully managed, MySQL- and PostgreSQL-compatible database engine developed by Amazon Web Services. It combines the performance and availability of high-end commercial databases with the simplicity and cost-effectiveness of open-source databases. </li> 
+</ol> 
+<BR>
+<h3> Companies using Amazon RDS <h3> 
+<div class="row">
+  <div class="column">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png" alt="Airbnb" style="width:60%">
+  </div>
+  <div class="column">
+    <img src="https://s27.q4cdn.com/708721433/files/images/new-logos/image-(10).png" alt="Expedia Logo" style="width:60%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png" alt="Netlfix logo" style="width:60%">
+  </div>
+</div>
+<BR>
+<BR>
+<h2> 4. Amazon Elastic Container Service </h2>
+<DIV>Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that makes it easy to run, scale, and monitor containerized applications in the cloud. It is designed to support the needs of both developers and operations teams, and it allows you to use Docker containers to build and deploy applications. </DIV>
+<h3> Functioning </h3> 
+<ol> 
+<li>You create an Amazon ECS cluster, which is a logical grouping of EC2 instances or AWS Fargate tasks that you use to run your containerized applications. You can create as many clusters as you need, and you can scale up or down as needed to meet changing workloads. </li> 
+<li>You create a task definition, which is a blueprint that describes the containers, CPU and memory requirements, networking, and other settings for your application. You can create as many task definitions as you need, and you can update them as needed to change the configuration of your containers. </li> 
+<li>You create a service, which is a logical grouping of tasks that you use to run your application. You can specify the desired number of tasks and the placement strategies for your service, and Amazon ECS will automatically schedule and manage the placement of your tasks across your cluster. </li> 
+<li>You can use the Amazon ECS API, the AWS Management Console, or the AWS CLI to manage your cluster, tasks, and services. You can also use Amazon CloudWatch to monitor the health and performance of your containers. </li> 
+<li>Amazon ECS automatically handles tasks such as provisioning, scaling, and monitoring, so you can focus on developing and deploying your application. You can also set up policies to control access to your cluster and data, such as allowing or denying access based on the user's identity or the type of request. </li> 
+</ol>
+<BR>
+<h3> The main types of Amazon ECS are : </h3> 
+<ol> 
+<li>Amazon ECS on EC2: Amazon ECS on EC2 is the original version of Amazon ECS, and it allows you to run your containers on a cluster of Amazon Elastic Compute Cloud (EC2) instances. </li>
+<li> AWS Fargate: AWS Fargate is a serverless compute engine for containers that allows you to run your containers without the need to manage EC2 instances. With AWS Fargate, you can focus on writing and deploying your application, and Amazon ECS will handle the rest. </li> 
+<li> Amazon ECS Anywhere: Amazon ECS Anywhere is a new service that allows you to run Amazon ECS on your own infrastructure, such as on-premises data centers or other cloud platforms. </li>  
+</ol>
+<BR> 
+<h3> Companies using Amazon ECS </h3> 
+<div class="row">
+  <div class="column">
+    <img src="https://getlogo.net/wp-content/uploads/2020/10/launchdarkly-logo-vector.png" alt="LaunhDarkly logo" style="width:60%">
+  </div>
+  <div class="column">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/CRED-LOGO2.png" alt="CRED Logo" style="width:60%">
+  </div>
+  <div class="column">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Glovo_logo.svg/2560px-Glovo_logo.svg.png" alt="Glovo logo" style="width:60%">
+  </div>
+</div>
+<BR>
+<BR>
+<h2><u><center> What are AWS Cost and Usage Reports ? </center></u></h2> 
+<h3><center> The AWS Cost and Usage Reports (AWS CUR) contains the most comprehensive set of cost and usage data available. You can use Cost and Usage Reports to publish your AWS billing reports to an Amazon Simple Storage Service (Amazon S3) bucket that you own.  </center> </h3>
+<h3><center>You can receive reports that break down your costs by the hour, day, or month, by product or product resource, or by tags that you define yourself. AWS updates the report in your bucket once a day in comma-separated value (CSV) format. You can view the reports using spreadsheet software such as Microsoft Excel or Apache OpenOffice Calc, or access them from an application using the Amazon S3 API.
+AWS Cost and Usage Reports tracks your AWS usage and provides estimated charges associated with your account. Each report contains line items for each unique combination of AWS products, usage type, and operation that you use in your AWS account. You can customize the AWS Cost and Usage Reports to aggregate the information either by the hour, day, or month.
+<center></h3>
+<h2> Amazon EC2 usage reports </h2> 
+<DIV>AWS provides a free reporting tool called AWS Cost Explorer that enables you to analyse the cost and usage of your EC2 instances and the usage of your Reserved Instances. You can view data up to the last 13 months, and forecast how much you are likely to spend for the next three months. You can use Cost Explorer to see patterns in how much you spend on AWS resources over time, identify areas that need further inquiry, and see trends that you can use to understand your costs. You also can specify time ranges for the data, and view time data by day or by month.</DIV> 
+<BR>
+<img src="C:\Users\Jacob\Downloads\Screenshot 2022-12-25 165525.png" alt="Table">
+<BR>
+<h2> Setting up an Amazon S3 bucket for Cost and Usage Reports </h2> 
+<DIV>To receive billing reports, you must have an Amazon S3 bucket in your AWS account to receive and store your reports. When setting up a Cost and Usage Report in the billing console you can select an existing Amazon S3 bucket you own or setup up a new one. In either case, you’ll be asked to review and confirm the application of the following default bucket policy. Editing this policy in the Amazon S3 console or changing the bucket owner after you’ve setup a Cost and Usage Report will prevent AWS from being able to deliver your reports. Storing the billing reports data in your Amazon S3 bucket is billed at standard Amazon S3 rates. </DIV> 
+<BR>
+<BR>
+<img src="C:\Users\Jacob\Downloads\Screenshot 2022-12-25 170002.png" alt="Table 2">
+<BR>
+<BR>
+<h2> Working with Lambda functions metrics </h2>
+<DIV>When your AWS Lambda function finishes processing an event, Lambda sends metrics about the invocation to Amazon CloudWatch. There is no charge for these metrics.
+On the CloudWatch console, you can build graphs and dashboards with these metrics. You can set alarms to respond to changes in utilization, performance, or error rates. Lambda sends metric data to CloudWatch in 1-minute intervals. If you want more immediate insight into your Lambda function, you can create high-resolution custom metrics as described in the Lambda operator guide. Charges apply for custom metrics and CloudWatch Alarms. </DIV> 
+<BR>
+<h2> How AWS cost and usage report works </h2> 
+<DIV>With AWS Cost and Usage Reports (CUR), you can review, itemize, and organize the most comprehensive cost and usage data for your account. </DIV>
+<BR>
+<center> <img src="https://d1.awsstatic.com/product-marketing/aws-cost-management/Product-Page-Diagram_AWS-Cost-and-Usage-Reports.f5eb4a3040f7a6986a4d60e2ae8f305dce54e732.png" alt=" aws lambda"></center>
+<BR>
+<BR>
+<h2><u><center> AWS for Web Development </center> </u></h2>
+<h3><center> Amazon Web Services offers cloud web hosting solutions that provide businesses, non-profits, and governmental organizations with low-cost ways to deliver their websites and web applications. Whether you’re looking for a marketing, rich-media, or ecommerce website, AWS offers a wide-range of website hosting options, and we’ll help you select the one that is right for you.</center> </h3>
+<br>
+<br>
+<h3> Broad Platform Support </h3> 
+<DIV> With AWS, you can use whatever CMS you like, including WordPress, Drupal, Joomla, and more. AWS also supports and provides SDKs for popular platforms like Java, Ruby, PHP, Node.js, and .Net. </DIV> 
+<br>
+<h3> Datacentres worldwide </h3> 
+<DIV> Your customers can be anywhere in the world. With AWS you can have a datacentre or CDN hosting your website in any geography you choose with just a few mouse clicks. </DIV>
+<br>
+<DIV> Website traffic can fluctuate a lot. From quiet times in the middle of the night, to campaign driven, social media sharing traffic spikes, AWS infrastructure that can grow and shrink to meet your needs. </DIV>
+<BR>
+<h3> Flexible Pricing Model </h3> 
+<DIV> AWS only charges you for the resources you use, with no up-front costs or long-term contracts. AWS has web hosting options that offer pay-as-you-go pricing or fixed monthly pricing. </DIV>
+<BR>
+<h3> AWS Amplify hosting </h3>
+<DIV> AWS Amplify Hosting is a fully managed CI/CD and hosting service for fast, secure, and reliable static and server-side rendered apps that scale with your business. Supports modern web frameworks such as React, Angular, Vue, Next.js, Gatsby, Hugo, Jekyll, and more. </DIV>
+<BR>
+<h3> Deploy web content, fast </h3>
+<DIV> Continuously deploy a static web or server-side rendered app, a mobile app landing page, or a progressive app on every code commit. </DIV> 
+<BR>
+<h3> Reliable hosting, close to your users </h3> 
+<DIV> Deploy to Amazon CloudFront’s content delivery network (CDN) with hundreds of points of presence globally. </DIV>
+<br>
+<h3>Accelerate with your team </h3> 
+<DIV>Increase the velocity of your application release cycle with built-in CI/CD workflows, pull request previews, and testing.  </DIV> 
+<br>
+<BR>
+<h3>Build dynamic capabilities </h3>
+<DIV> Use with Amplify Studio or other AWS tools and services to build high-quality, full-stack apps. </DIV>
+<BR>
+<h3> Features of Amplify hosting </h3> 
+<ul> 
+<li> Full stack of CI/CD workflows </li>
+<DIV> Connect your git branches to automatically deploy front-end and backend changes in a single workflow. </DIV>
+<li> Pull request previews </li>
+<DIV> Work on new features before going live, without impacting production. Create new environments from pull requests. </DIV>
+<li> Easy custom domains </li>
+<DIV> Connect a custom domain with painless verification. Feature branches automatically get a custom domain. Get a free SSL certificate for custom and non-custom domains deployed. </DIV>
+<li> Monitoring </li>
+<DIV> Monitor hosting metrics for your app in near real-time. Create custom alarms that send notifications when a metric exceeds a threshold you set. </DIV>
+<li> Redirects and custom headers </li>
+<DIV> Easily configure your hosted site with redirects, rewrites, and custom headers. </DIV>
+<li> Password protection </li>
+<DIV> Share yet-to-be released features with internal stakeholders by setting a username and password. </DIV>
+<li> Password protection </li>
+<DIV> Share yet-to-be released features with internal stakeholders by setting a username and password. </DIV>
+</ul>
+
+<h2> Other Companies providing Web Development services </h2> 
+<img src="https://pbs.twimg.com/profile_images/666361180282294272/1UbsKELf_400x400.jpg" alt="dot logo" width="160" height="160">
+<h3> Dot Logics </h3> 
+<DIV> They provide full-stack web design, development and online marketing agency which has been in business since 2020 with over 55+ clients and have successfully completed more than 80+ projects. They specialize in helping clients to realize value from open-source technologies and online media. Their services include tailor-made Web Design, Web Development, Mobile Apps, Digital Marketing, Branding, Graphic Designing, Professional Content Writing.
+
+Being one of the top IT service providers backed up with well experienced professionals they also operate as an offshore service provider in Sri Lanka for clients all over the world, such as USA, UK, Germany, New Zealand, Australia, and France.
+ </DIV>
+<h3> Comparison between AWS Web Development services and Dot Logic: </h3> 
+<img src="C:\Users\Jacob\Downloads\Screenshot 2022-12-25 182944.png" alt="table 3">
+<br>
+<br>
+<h2> Case Study on AWS Web Development services </h2>
+<h3> E-Travel </h3>
+<DIV>One of the top 10 online travel agencies in Europe, e-Travel operates 11 websites, including www.mytrip.com, www.airtickets24.com, and www.trip.ru. Since mid-2014, more than two million passengers worldwide have purchased flights, travel insurance, and car rental services through the Athens-based start-up. Launched in 2007, the 180-employee company has a significant presence in south-eastern Europe and Russia and is expanding into markets in Southeast Asia.  </DIV>
+<h3> The challenge </h3> 
+<DIV>E-Travel has three core business goals: quick time to market, expansion into new countries and regions, and continuous delivery of useful features for customers. Focusing on these has been central to the firm’s success, so when its existing IT infrastructure—a combination of collocated and managed hosting services—hampered the company’s ambitions, e-Travel knew it had to look differently at its IT setup.
+“As we grew, we found that our environment was slowing us down,” says Nick Bitounis, director of IT at e-Travel. “We were concentrating on provisioning hardware, but what we really wanted to do was help deliver a great experience to our customers.” Bitounis says process automation was key in enabling the start up’s 35-plus in-house developers to experiment and test new ideas instead of focusing on day-to-day IT management tasks.
+With a 24/7 operation serving customers in more than 60 countries, e-Travel also needed to ensure high availability as well as elasticity to cope with significant spikes in demand. In 2012, things came to a head, with several hardware failures that ultimately threatened the customer experience. “Our most pressing goal was to eliminate downtime altogether,” says Bitounis.
+e-Travel looked to the cloud to help it achieve the service continuity that was so vital to its business.  
+ </DIV>
+<h3> WHy AWS ? </h3>
+<DIV>e-Travel uses AWS to run all its back-end systems for flight bookings and ticketing, as well as its 11 customer-facing websites. The services sit within an Amazon Virtual Private Cloud (Amazon VPC), and include Amazon elastic cloud (Amazon EC2), with Elastic Load balancing for distributing loads between instances. Amazon SNS (Amazon S3) provides fully redundant storage, and the managed Amazon relational database (Amazon RDS) reduces manual database administration for the team.
+e-Travel uses Amazon SNS and Amazon SQS to pass data between applications. The firm’s developers make extensive use of tools for Amazon Web Services, including the AWS SDK for ruby and AWS SDK for .NET to help integrate the company’s applications with its AWS environment.
+Amazon cloud search provides data indexing for the company’s proprietary customer relationship management (CRM) application, while is central to Amazon kinesis streaming log data. e-Travel hopes to expand its use of Amazon red shift for management reporting and is currently exploring how it can use AWS Lambda to realize the benefits of a serverless architecture.
+The company has the Business support plan from AWS Support, which Bitounis says has been helpful. “When the need arises, the response times, feedback, and resolution have been good,” he says.  
+ <DIV> 
+<h3> Benefits </h3>
+<DIV>Eliminating system downtime was a key driver for moving to the cloud. “With AWS, we have 99.99 percent availability, which helps us deliver a consistent, reliable experience for our customers,” says Bitounis.
+The company’s sites all experience fluctuations in demand on an hourly, daily, and seasonal basis, and the elasticity of AWS gives e-Travel the ability to deal with these spikes in traffic. Bitounis says, “By using AWS, we can scale flexibly without having to spend time manually adding servers or removing bottlenecks. The infrastructure can easily respond to changes in demand.”
+ </DIV> 
+
+<br>
+<BR>
+<BR>
+<h2><u><center> Globally known websites hosted on AWS </center></u></h2>
+<img src="https://logos-world.net/wp-content/uploads/2020/10/Reddit-Logo.png" alt="reddit" width="150" height="120">
+
+                <DIV> Reddit is a social news website and forum where content is socially curated and promoted by site members through voting. Reddit gains its popularity from the facilitation it grants its users when it comes to interacting with strangers from all over the world around shared interests or things you have in common.  </DIV>
+
+<h3> Reddit on AWS </h3>
+
+<DIV> Reddit has been operating on AWS since 2009. Originally, to support data that powered Reddit.com ad the company’s native mobile apps, Reddit used a self-managed PostgreSQL database on Amazon EC2, which provides secure, resizable compute capacity in the cloud and Amazon Simple Storage Service (Amazon S3), an object storage service that offers industry-leading scalability, data availability, security, and performance. Amazon EC2 and Amazon S3 gave Reddit’s engineers complete control of their computing resources as well as easy-to-use management features that enabled them to organize their data and configure finely tuned access controls to meet business, organizational, and compliance requirements. </DIV> 
+<BR>
+<DIV> Reddit uses Amazon Aurora, managed by Amazon RDS, which automates time-consuming administration tasks such as hardware provisioning and database setup, patching, and backups. Amazon Aurora granted Reddit engineers the to replicate its databases from Amazon EC2 without the need for transformation. Furthermore, they used Amazon Aurora to build a longer-term strategy for how they would deal with data and do more strategic thinking for lon-term projects. </DIV>		
+<BR>
+<DIV> Migrating from self-managed PostgreSQL on Amazon EC2 to Aurora was a key component of Reddit’s success. It has resulted in not only higher database reliability, faster backup restoration and point-in-time recovery, and fast automated failovers but also improved productivity for engineers. </DIV>
+<BR>
+<h3> More information on Amazon Aurora </h3>
+<DIV> Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud, that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open source databases. </DIV>
+<BR>
+<a href="https://aws.amazon.com/rds/aurora/">Amazon Aurora</a>
+<BR>
+<BR>
+<img src="https://logos-world.net/wp-content/uploads/2020/09/Pinterest-Logo.png" alt="pinterest" width="150" height="120"> 
+<DIV> Pinterest is a visual discovery engine for finding ideas like recipes, home and style inspirations, outfits and more. With billions of Pins on Pinterest,<br> you’ll always find ideas to spark inspirations. </DIV>
+<br>
+<h3> Pinterest on AWS </h3>
+<DIV>Building on AWS storage and compute solutions, Pinterest uses sophisticated machine learning engines to deliver personalized content to its users. Pinterest uses storage and compute solutions on Amazon Web Services (AWS) to provide the scale, speed, and security its platform requires, while keeping costs low and freeing engineers to focus on innovation. </DIV>
+<br>
+<h3> AWS Services used </h3>
+<ul>
+<a href="https://aws.amazon.com/s3/"><li> Amazon S3 </li></a>
+<a href="https://aws.amazon.com/iam/"><li> Amazon IAM </li></a>
+<a href="https://aws.amazon.com/ec2/"><li> Amazon EC2 </li></a>
+<a href="https://aws.amazon.com/what-is/opensearch/"><li> Amazon OpenSearch Service </li></a>
+</ul>
+<br>
+<h3> Amazon S3 Glacier Deep Archive </h3>
+<DIV>Pinterest uses Amazon S3 as one of their main data storage solutions and is an important pillar to Pinterest’s storage strategy. As large-scale users of S3, Pinterest stores billions of objects and nearly an exabyte of data across multiple AWS Regions. </DIV>
+<br>
+<h3> Amazon IAM </h3>
+<DIV>Pinterest used Amazon IAM and Amazon S3 to create a FGAC system to speed up development times. T-They built an access control system to ensure the correct user permissions were in place which, in return, improved development time for the internal users.</DIV>
+<BR>
+<h3> Amazon OpeanSearch Service </h3>
+<DIV> Faced with the enormous demand for faster, more efficient log analytics at a lower cost, Pinterest moved to managed analytics using Amazon OpenSearch Service. Pinterest moved to managed analytics using Amazon OpenSearch Service on Amazon Web Services (AWS) to scale its log analysis capabilities, reduce operational burdens, improve security of its proprietary information and private user data, and save costs by as much as 30 percent. </DIV>
+<br>
+<br>
+<img src="https://pixelbag.net/wp-content/uploads/2022/03/ubisoft-vector-logo.jpg" alt="Ubisoft" width="150" height="120">
+<DIV>Ubisoft is a leading creator, publisher, and distributor of interactive entertainment and services, with a rich portfolio of world-renowned brands, including Assassin’s Creed, Just Dance, Tom Clancy’s video game series, Rayman, Far Cry, and Watch Dogs. Headquartered in Paris, France, Ubisoft’s teams are committed to delivering original and memorable gaming experiences across all popular platforms, including multiplayer experiences enjoyed by millions of gamers around the world.  </DIV>
+<BR>
+<h3> AWS Services used </h3>
+<ul>
+<li> Amazon EC2 </li>
+<li> Amazon EC2 Container Services (ECS) </li>
+<li> Amazon ElastiCache </li> 
+</ul> 
+<DIV>Ubisoft managed is Storm relay service by using Amazon ECS. Amazon ECS does the orchestrating and deployment for Ubisoft, they also configure their service to support the traffic using Amazon ECS. 
+With ElastiCache, Ubisoft is able to deploy a new Redis Database in a few second, instead of installing and configuring the database on our own. 
+ </DIV>
+<BR>
+<BR>
+
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("menu").style.top = "0";
+  } else {
+    document.getElementById("menu").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</body>
+</html>
